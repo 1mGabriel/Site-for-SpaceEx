@@ -6,9 +6,10 @@ body{
 .container-fluid{
     background-image: url(./home-Page/01.jpg);
     background-size: cover;
-    height: 100vh;
+    min-height: 100vh;
 
 }
+/*Header*/
 .img-thumbnail{
     height: 100px;
     margin-bottom: 20px;
@@ -32,16 +33,60 @@ body{
 .header-button:hover{
     color: #0564bd;
 }
+/*Section*/
 .home-section{
-    margin-top: 62px;
-    padding: 100px;
+    
+    margin-top: 0px;
+    padding: 95px;
     margin-left: 20vh;
 }
 .h{
     color: white;
 }
+.section{
+    margin-top: 150px;
+}
 .btn{
+    
     border: 2px solid;
     height: 60px;
     width: 160px;
+}
+.container2{
+    margin-top: 0px;
+    background-image: url(./home-Page/03.jpg);
+    background-size: cover;
+    min-height: 100vh;
+ 
+}
+.container3{
+    margin-top: 0px;
+    background-image: url(./home-Page/02.gif);
+    background-size: cover;
+    min-height: 100vh;
+ 
+}
+.container4{
+    margin-top: 0px;
+    background-image: url(./home-Page/04.jpg);
+    background-size: cover;
+    min-height: 100vh;
+ 
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 10vh;
+    background-color: black;
+    font-size: small;
+}
+.instagram{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+.copy{
+ color: #696969;
 }
