@@ -40,6 +40,13 @@ body{
     padding: 95px;
     margin-left: 20vh;
 }
+.arrow00{
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
 .h{
     color: white;
 }
@@ -73,6 +80,30 @@ body{
     min-height: 100vh;
  
 }
+.container5{
+    margin-top: 0px;
+    background-image: url(./falcon9-Page/01.jpg);
+    background-size: cover;
+    min-height: 100vh;
+ 
+}
+.section2{
+    margin-top: 150px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.falcon-title{
+    font-size: 90px
+}
+.falcon-subtitle{
+    font-size: 20px;
+;
+}
+
 .footer{
     display: flex;
     justify-content: center;
@@ -89,4 +120,57 @@ body{
 }
 .copy{
  color: #696969;
+}
+.container6{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0px;
+    background-color: black;
+    background-size: cover;
+    min-height: 30vh;
+ }
+ .dados{
+    color: white;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+    
+ }
+ .number{
+    font-size: 100px;
+    font-weight: 500;
+ }
+.number-sub{
+    font-size: 20px;
+}
+.container7{
+    margin-top: 0px;
+    background-image: url(./falcon9-Page/02.jpg);
+    background-size: cover;
+    min-height: 100vh;
+ 
+}
+.page7-text{
+    font-size: 20px;
+    line-height: 50px
+}
+.container8{
+    margin-top: 0px;
+    background-image: url(./falcon9-Page/03.jpg);
+    background-size: cover;
+    min-height: 100vh;
+ 
+}
+.tabela{
+    height: 60ch;
+    width: 60ch;
+    margin-left: 200px;
+    margin-top: 150px;
+}
+th{
+    color: white;
+}
+.td-text{
+    color: white;
+    text-align: end;
 }
