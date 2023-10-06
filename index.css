@@ -11,7 +11,7 @@ body{
 }
 /*Header*/
 .img-thumbnail{
-    height: 100px;
+    height: 50px;
     margin-bottom: 20px;
     border: 0;
     background-color: transparent;
@@ -31,7 +31,7 @@ body{
     text-decoration: none;
 }
 .header-button:hover{
-    color: #0564bd;
+    color: #ffffff;
 }
 /*Section*/
 .home-section{
@@ -165,7 +165,9 @@ body{
     height: 60ch;
     width: 60ch;
     margin-left: 200px;
-    margin-top: 150px;
+}
+.table{
+    margin-top: 100px;
 }
 th{
     color: white;
@@ -173,4 +175,103 @@ th{
 .td-text{
     color: white;
     text-align: end;
+}
+.container9{
+    margin-top: 0px;
+    background-image: url(./falcon9-Page/04.jpg);
+    background-size: cover;
+    min-height: 100vh;
+ 
+}
+.section3{
+    height: 60ch;
+    width: 60ch;
+    margin-left: 200px;
+    margin-top: 150px;
+    font-size: 20px;
+    line-height: 50px
+}
+.container10{
+    margin-top: 0px;
+    background-image: url(./falcon9-Page/05.jpg);
+    background-size: cover;
+    min-height: 100vh;
+ 
+}
+.container11{
+    margin-top: 0px;
+    background-image: url(./falcon9-Page/06.jpg);
+    background-size: cover; 
+    min-height: 100vh;
+ 
+}
+.section4{
+    height: 50ch;
+    width: 50ch;
+    margin-left: 200px;
+    margin-top: 150px;
+    font-size: 20px;
+    
+}
+.container12{
+    margin-top: 0px;
+    background-image: url(./falcon9-Page/07.jpg);
+    background-size: cover; 
+    min-height: 100vh;
+ 
+}
+img{
+    height: 100vh;
+}
+.container13{
+    margin-top: 0px;
+    background-image: url(./falcon9-Page/08.jpg);
+    background-size: cover; 
+    min-height: 100vh;
+
+}  
+.sub-text{
+    background-color: black;
+} 
+
+.carousel-caption{
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+.container14{
+    background-color: black;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+}
+.link{
+    color:#696969 ;
+}
+.link:hover{
+    color:#696969 ;
+}
+.text{
+    text-align: center;
+    font-size: 20px;
+}
+.buttons{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.bttn{
+    height: 70px;
+    width: 250px;
+}
+.elements{
+    margin-bottom: 100px;
 }
